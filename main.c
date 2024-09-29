@@ -122,32 +122,32 @@ int main(void)
 		return 0;
 	}
 
-	// ret = gpio_pin_configure_dt(&led_15, GPIO_OUTPUT_ACTIVE);
-	// if (ret < 0) {
-	// 	return 0;
-	// }
-	// ret = gpio_pin_configure_dt(&led_16, GPIO_OUTPUT_ACTIVE);
-	// if (ret < 0) {
-	// 	return 0;
-	// }
-	// ret = gpio_pin_configure_dt(&led_17, GPIO_OUTPUT_ACTIVE);
-	// if (ret < 0) {
-	// 	return 0;
-	// }
+	ret = gpio_pin_configure_dt(&led_15, GPIO_OUTPUT_ACTIVE);
+	if (ret < 0) {
+		return 0;
+	}
+	ret = gpio_pin_configure_dt(&led_16, GPIO_OUTPUT_ACTIVE);
+	if (ret < 0) {
+		return 0;
+	}
+	ret = gpio_pin_configure_dt(&led_17, GPIO_OUTPUT_ACTIVE);
+	if (ret < 0) {
+		return 0;
+	}
 
-	// ret = gpio_pin_configure_dt(&led_18, GPIO_OUTPUT_ACTIVE);
-	// if (ret < 0) {
-	// 	return 0;
-	// }
+	ret = gpio_pin_configure_dt(&led_18, GPIO_OUTPUT_ACTIVE);
+	if (ret < 0) {
+		return 0;
+	}
 
-	// ret = gpio_pin_set_dt(&led_10,0);
-	// if (ret < 0) {
-	// 	return 0;
-	// }
-	// ret = gpio_pin_set_dt(&led_11,0);
-	// if (ret < 0) {
-	// 	return 0;
-	// }
+	ret = gpio_pin_set_dt(&led_10,0);
+	if (ret < 0) {
+		return 0;
+	}
+	ret = gpio_pin_set_dt(&led_11,0);
+	if (ret < 0) {
+		return 0;
+	}
 	ret = gpio_pin_set_dt(&led_12,0);
 	if (ret < 0) {
 		return 0;
